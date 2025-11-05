@@ -9,15 +9,10 @@
 //     e retornar o preço final para se comprar aquele item 
 
 class ContaBancaria{
-    private extrato:number; 
-    private saque:number; 
-    private deposito:number;  
+    
     private saldo:number;
 
-    constructor(extrato:number,saque:number,deposito:number,saldo:number){
-        this.extrato = extrato; 
-        this.saque = saque; 
-        this.deposito = deposito;  
+    constructor(saldo:number){
         this.saldo = saldo;
     } 
     public verExtrato(){ 
